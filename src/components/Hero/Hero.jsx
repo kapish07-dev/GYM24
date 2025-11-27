@@ -29,7 +29,7 @@ const Hero = () => {
         <img
           src="/HeroNew.jpg"
           alt="Fitness trainer"
-          className="w-full h-full p-12 md:p-3 object-fill object-[80%_center] opacity-85"
+          className="w-full h-full p-12 md:p-3 object-fill object-[80%] opacity-85"
         />
       </div>
     </div>

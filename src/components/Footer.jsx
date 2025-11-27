@@ -8,8 +8,10 @@ const handleBuyClick = () => {
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black text-white flex flex-col md:flex-row justify-between px-10 py-6 md:py-12 gap-8 md:gap-0 box-border
-    ">
+    <footer
+      className="w-full bg-black text-white flex flex-col md:flex-row justify-between px-10 py-6 md:py-12 gap-8 md:gap-0 box-border
+    "
+    >
       {/* Logo Section */}
       <div className="flex flex-col max-w-xs">
         <div

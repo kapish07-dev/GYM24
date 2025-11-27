@@ -9,7 +9,6 @@ const handleBuyClick = () => {
 
 const Header = () => {
   return (
-    
     <div className="absolute w-full z-10 flex justify-between items-center px-4 md:px-4 lg:px-40 py-4">
       {/* Logo */}
       <div

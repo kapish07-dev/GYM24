@@ -92,7 +92,7 @@ const trainersData = [
 
 const Trainers = () => {
   return (
-    <section 
+    <section
       className="bg-black text-white font-sans flex flex-col items-center
       
       left-0 top-0 h-full pt-54  md:pl-4 px-4 md:px-4 lg:px-40 py-4"
