@@ -4,14 +4,14 @@ import Header from "../Header/Header";
 const Hero = () => {
   return (
     <div
-      className="relative w-full min-h-screen h-[80vh] bg-black overflow-hidden "
+      className="relative w-full min-h-screen h-[100vh]  bg-black overflow-hidden "
       id="home"
     >
       {/* Header component (positioned absolutely over the container) */}
       <Header />
 
       {/* Content for the Left Side */}
-      <div className="absolute left-0 top-0 h-full leading-1.5 flex flex-col  pt-54  md:pl-4 px-4 md:px-4 lg:px-40 py-4">
+      <div className="absolute left-0 top-0 h-full leading-1.5 flex flex-col z-10 pt-54  md:pl-4 px-4 md:px-4 lg:px-40 py-4">
         <h1 className="font-montserrat font-extrabold text-[4rem] leading-16 text-white">
           Free trial session <br /> with a trainer
         </h1>

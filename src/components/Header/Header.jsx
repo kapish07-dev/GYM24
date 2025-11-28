@@ -9,7 +9,7 @@ const handleBuyClick = () => {
 
 const Header = () => {
   return (
-    <div className="absolute w-full z-10 flex justify-between items-center px-4 md:px-4 lg:px-40 py-4">
+    <div className="absolute w-full z-20 flex justify-between items-center px-4 md:px-4 lg:px-40 py-4">
       {/* Logo */}
       <div
         className="font-furore flex items-center cursor-pointer font-furore font-extrabold text-[1.9rem]"
@@ -20,7 +20,7 @@ const Header = () => {
       </div>
 
       {/* Navigation links */}
-      <div className="font-bold text-[1.15rem] align-middle font-size-1rem font-weight: 500 flex  gap-12 font-poppins justify-center align-middle  text-white text-sm uppercase">
+      <div className="font-bold text-[1.2rem]  font-weight: 600 flex  gap-12 font-poppins  text-white text-sm uppercase">
         <h3 className="">
           <a
             href="#advantages"
