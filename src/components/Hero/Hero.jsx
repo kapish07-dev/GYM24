@@ -11,14 +11,14 @@ const Hero = () => {
       <Header />
 
       {/* Content for the Left Side */}
-      <div className="absolute left-0 top-0 h-full flex flex-col z-10 pt-54  md:pl-4 px-4 md:px-4 lg:px-40 py-4">
-        <h1 className="font-montserrat font-extrabold text-[3.75rem] leading-tight text-white">
+      <div className="absolute left-0 top-0 h-full leading-1.5 flex flex-col  pt-54  md:pl-4 px-4 md:px-4 lg:px-40 py-4">
+        <h1 className="font-montserrat font-extrabold text-[4rem] leading-16 text-white">
           Free trial session <br /> with a trainer
         </h1>
 
         <button
-          className="mt-4 w-36 bg-[#bbff00] text-black font-bold text-base py-[0.65rem] px-3 rounded-[20px] flex justify-center cursor-pointer
-          hover:bg-[#afee01] hover:translate-y-[-0.5px] hover:w-[9.05rem] hover:py-[0.665rem] transition-all duration-200"
+          className="mt-2 w-36 bg-[#bbff00] text-black font-bold text-base py-2 px-2 rounded-[20px] flex justify-center cursor-pointer
+          hover:bg-[#afee01] hover:translate-y-[-0.5px] hover:w-[9.05rem] hover:py-[0.55rem] transition-all duration-200"
         >
           <a href="#trainers">Detailed</a>
         </button>
