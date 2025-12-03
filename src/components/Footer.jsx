@@ -28,10 +28,10 @@ export default function Footer() {
       {/* ---------- SECTION 1 ---------- */}
       <div className="flex flex-col max-w-[300px]">
         <div
-          onClick={handleBuyClick}
-          className="font-furore font-extrabold text-[1.9rem] mb-5 cursor-pointer"
+          className="font-furore font-extrabold text-[1.9rem] mb-5"
         >
-          GYM<span className="text-[#bbff00]">24</span>
+         <span onClick={handleBuyClick} className="cursor-pointer">GYM</span>
+         <span onClick={handleBuyClick} className="cursor-pointer text-[#bbff00]">24</span>
         </div>
 
         <p className="font-inter text-[12px] leading-normal text-[#d0d0d0]">

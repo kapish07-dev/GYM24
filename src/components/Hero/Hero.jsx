@@ -17,7 +17,7 @@ const Hero = () => {
         </h1>
 
         <button
-          className="mt-2 w-36 bg-[#bbff00] text-black font-bold text-base py-2 px-2 rounded-[20px] flex justify-center cursor-pointer
+          className="mt-1 w-36 bg-[#bbff00] text-black font-bold text-base py-2 px-2 rounded-[20px] flex justify-center cursor-pointer
           hover:bg-[#afee01] hover:translate-y-[-0.5px] hover:w-[9.05rem] hover:py-[0.55rem] transition-all duration-200"
         >
           <a href="#trainers">Detailed</a>
