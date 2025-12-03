@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 const Hero = () => {
   return (
     <div
-      className="relative w-full min-h-screen h-[100vh]  bg-black overflow-hidden "
+      className="relative w-full min-h-screen h-screen  bg-black overflow-hidden "
       id="home"
     >
       {/* Header component (positioned absolutely over the container) */}
