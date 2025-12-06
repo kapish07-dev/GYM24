@@ -95,23 +95,23 @@ const Trainers = () => {
     <section
       className="bg-black text-white font-sans flex flex-col items-center
       
-      left-0 top-0 h-full pt-54  md:pl-4 px-4 md:px-4 lg:px-40 py-4"
+      left-0 top-0 h-full pt-54 px-6 sm:px-8  md:pl-4 md:px-4 lg:px-28 py-8"
       id="trainers"
     >
       <h2 className="text-2xl sm:text-3xl font-extrabold text-center mb-12">
         Trainers staff
       </h2>
 
-      <div className="w-full flex flex-wrap justify-center gap-4 sm:gap-7">
+      <div className="w-full flex flex-wrap justify-center gap-3 sm:gap-5">
         {trainersData.map(({ id, name, image, social }) => (
           <div
             key={id}
-            className="flex flex-col items-center bg-[#212121] rounded-xl p-4 sm:p-5 w-full xs:w-52 sm:w-56 md:w-60 lg:w-56 xl:w-64 transition-transform duration-200 hover:-translate-y-0.5"
+            className="flex flex-col items-center bg-[#212121] rounded-xl p-3 sm:p-4 w-full xs:w-48 sm:w-48 md:w-48 lg:w-56 xl:w-64 transition-transform duration-200 hover:-translate-y-0.5"
           >
             <img
               src={image}
               alt={name}
-              className="h-60 sm:h-64 w-full object-cover rounded-lg cursor-pointer"
+              className="h-56 sm:h-60 w-full object-cover rounded-lg cursor-pointer"
             />
             <div className="flex flex-col items-center gap-2 mt-3 text-center w-full">
               <h3 className="text-sm sm:text-base font-bold">{name}</h3>

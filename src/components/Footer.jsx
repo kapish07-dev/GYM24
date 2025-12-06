@@ -19,9 +19,8 @@ export default function Footer() {
     <footer
       className="
         w-full bg-black text-white 
-        flex justify-between 
-        px-40 py-8
-        box-border
+        flex justify-between box-border
+        px-6 sm:px-8 lg:px-40 py-8
         max-md:flex-col max-md:gap-10 max-md:px-8
       "
     >
