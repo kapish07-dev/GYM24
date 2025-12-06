@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// FontAwesome Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -26,11 +25,16 @@ export default function Footer() {
     >
       {/* ---------- SECTION 1 ---------- */}
       <div className="flex flex-col max-w-[300px]">
-        <div
-          className="font-furore font-extrabold text-[1.9rem] mb-5"
-        >
-         <span onClick={handleBuyClick} className="cursor-pointer">GYM</span>
-         <span onClick={handleBuyClick} className="cursor-pointer text-[#bbff00]">24</span>
+        <div className="font-furore font-extrabold text-[1.9rem] mb-5">
+          <span onClick={handleBuyClick} className="cursor-pointer">
+            GYM
+          </span>
+          <span
+            onClick={handleBuyClick}
+            className="cursor-pointer text-[#bbff00]"
+          >
+            24
+          </span>
         </div>
 
         <p className="font-inter text-[12px] leading-normal text-[#d0d0d0]">
@@ -144,6 +148,10 @@ export default function Footer() {
     </footer>
   );
 }
+
+
+
+
 
 // // Footer.jsx
 // import React from "react";

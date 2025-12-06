@@ -1,4 +1,3 @@
-// File: Trainers.jsx
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -93,12 +92,13 @@ const trainersData = [
 const Trainers = () => {
   return (
     <section
-      className="bg-black text-white font-sans flex flex-col items-center
-      
-      left-0 top-0 h-full pt-54 px-6 sm:px-8  md:pl-4 md:px-4 lg:px-28 py-8"
+      className="bg-black text-white font-sans flex flex-col items-center   
+      left-0 top-0 h-full pt-54 px-8 sm:px-8  md:pl-4 md:px-8 lg:px-28 py-8"
       id="trainers"
     >
-      <h2 className="text-2xl sm:text-3xl font-extrabold text-center mb-12">
+      <h2 className="font-montserrat font-bold text-[2rem] sm:text-[2.65rem] mb-8 md:mb-12
+      ">
+        {/* text-2xl sm:text-3xl font-extrabold text-center mb-12 */}
         Trainers staff
       </h2>
 
@@ -106,12 +106,12 @@ const Trainers = () => {
         {trainersData.map(({ id, name, image, social }) => (
           <div
             key={id}
-            className="flex flex-col items-center bg-[#212121] rounded-xl p-3 sm:p-4 w-full xs:w-48 sm:w-48 md:w-48 lg:w-56 xl:w-64 transition-transform duration-200 hover:-translate-y-0.5"
+            className="flex flex-col items-center bg-[#212121] rounded-xl p-3 sm:p-4  xs:w-48 sm:w-48 md:w-48 lg:w-56 xl:w-64 transition-transform duration-200 hover:-translate-y-0.5"
           >
             <img
               src={image}
               alt={name}
-              className="h-56 sm:h-60 w-full object-cover rounded-lg cursor-pointer"
+              className="h-72 sm:h-60 w-full object-cover rounded-lg cursor-pointer"
             />
             <div className="flex flex-col items-center gap-2 mt-3 text-center w-full">
               <h3 className="text-sm sm:text-base font-bold">{name}</h3>
@@ -120,7 +120,7 @@ const Trainers = () => {
                   href={social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-8 h-8 flex items-center justify-center border border-white rounded-full text-white hover:text-lime-400 hover:border-lime-400 transition-colors duration-300 hover:-translate-y-0.5"
+                  className="w-8 h-8 flex items-center justify-center border-[1.5px] border-white rounded-full text-white hover:text-lime-400 hover:border-lime-400 transition-colors duration-300 hover:-translate-y-0.5"
                 >
                   <FontAwesomeIcon icon={faInstagram} className="text-base" />
                 </a>
@@ -128,7 +128,7 @@ const Trainers = () => {
                   href={social.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-8 h-8 flex items-center justify-center border border-white rounded-full text-white hover:text-lime-400 hover:border-lime-400 transition-colors duration-300 hover:-translate-y-0.5"
+                  className="w-8 h-8 flex items-center justify-center border-[1.5px] border-white rounded-full text-white hover:text-lime-400 hover:border-lime-400 transition-colors duration-300 hover:-translate-y-0.5"
                 >
                   <FontAwesomeIcon icon={faTwitter} className="text-base" />
                 </a>
@@ -136,7 +136,7 @@ const Trainers = () => {
                   href={social.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-8 h-8 flex items-center justify-center border border-white rounded-full text-white hover:text-lime-400 hover:border-lime-400 transition-colors duration-300 hover:-translate-y-0.5"
+                  className="w-8 h-8 flex items-center justify-center border-[1.5px] border-white rounded-full text-white hover:text-lime-400 hover:border-lime-400 transition-colors duration-300 hover:-translate-y-0.5"
                 >
                   <FontAwesomeIcon icon={faFacebookF} className="text-base" />
                 </a>

@@ -38,7 +38,7 @@ const reasonsData = [
 const Reasons = () => {
   return (
     <section
-      className="bg-black text-white font-sans px-6 sm:px-8 lg:px-40 py-32 sm:py-24"
+      className="bg-black text-white font-sans px-8 md:px-8 sm:px-8 lg:px-40 py-32 sm:py-24"
       id="advantages"
     >
       <h2 className="text-5xl sm:text-3xl md:text-5xl font-bold mb-20 text-center md:text-left">

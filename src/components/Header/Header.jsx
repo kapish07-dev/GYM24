@@ -9,7 +9,7 @@ const handleBuyClick = () => {
 
 const Header = () => {
   return (
-    <div className="absolute w-full z-20 flex justify-between items-center px-4 md:px-4 lg:px-40 py-4">
+    <div className="absolute w-full z-20 flex justify-between items-center px-8 md:px-4 lg:px-40 py-4">
       {/* Logo */}
       <div
         className="font-furore flex items-center cursor-pointer font-furore font-extrabold text-[1.9rem]"

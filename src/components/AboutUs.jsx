@@ -125,11 +125,9 @@ const AboutUs = () => {
   return (
     <>
       <section
-        className="flex flex-col md:flex-row justify-between bg-black text-white gap-10 md:gap-20 px-6 md:px-12 lg:px-40 py-16"
+        className="flex flex-col md:flex-row justify-between bg-black text-white gap-10 md:gap-20 px-8 md:px-12 lg:px-40 py-16"
         id="about-us"
       >
-        {/* Left Content */}
-        {/* Default: full width (w-full). Tablet (md): half width (md:w-1/2) for a side-by-side split. */}
         <div className="flex-1 w-full md:w-1/2 lg:w-2/5 md:max-w-none">
           <h2 className="font-montserrat font-bold text-[2rem] sm:text-[2.65rem] mb-8 md:mb-12">
             About us
