@@ -70,10 +70,13 @@ const handleBuyClick = () => {
 const Membership = () => {
   return (
     <section
-      className="bg-black text-white font-sans px-6 sm:px-8 lg:px-40 py-32 sm:py-24"
+      className="bg-black text-white font-sans px-6 sm:px-8 lg:px-40 py-16 sm:py-24"
       id="membership"
     >
-      <h2 className="text-4xl sm:text-2xl md:text-5xl font-bold text-center mb-12">
+      <h2 className="font-montserrat leading-normal text-[2rem] sm:text-[2.50rem]
+
+      font-bold text-center mb-12">
+      {/* text-4xl sm:text-2xl md:text-4xl font-bold text-center mb-12"> */}
         Gym membership
       </h2>
       <div className="flex flex-wrap justify-center   gap-8 sm:gap-10 lg:gap-14">

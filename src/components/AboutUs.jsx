@@ -117,25 +117,25 @@ const AboutUs = () => {
   return (
     <>
       <section
-        className="flex flex-col md:flex-row justify-between bg-black text-white gap-10 md:gap-20 px-8 md:px-12 lg:px-40 py-16"
+        className="subpixel-antialiased font-inter flex flex-col md:flex-row justify-between bg-black text-white gap-10 md:gap-20 px-8 md:px-12 lg:px-40 py-16"
         id="about-us"
       >
         <div className="flex-1 w-full md:w-1/2 lg:w-2/5 md:max-w-none">
-          <h2 className="font-montserrat font-bold text-[2rem] sm:text-[2.65rem] mb-8 md:mb-12">
+          <h2 className="font-montserrat leading-normal font-bold text-[2rem] sm:text-[2.90rem] -mt-1 mb-8 md:mb-10">
             About us
           </h2>
-          <p className="font-inter text-base leading-relaxed mb-6">
+          <p className="font-inter text-[14px] leading-normal mb-6">
             Gym24 is a leading fitness center located near Grushevka metro
             station, offering over 1500 sq. m of space dedicated to
             top-of-the-line workout equipment from leading brands such as Hammer
             Strength, Life Fitness, and Technogym.
           </p>
-          <p className="font-inter text-base leading-relaxed mb-6">
+          <p className="font-inter text-[14px] leading-normal mb-6">
             With affordable membership options, Gym24 is accessible to everyone
             who wants to reach their fitness goals, whether it’s building
             strength, increasing endurance, or losing weight.
           </p>
-          <p className="font-inter text-base leading-relaxed mb-6">
+          <p className="font-inter text-[14px] leading-normal mb-6">
             Certified trainers at Gym24 provide expert guidance and support to
             develop personalized workout plans tailored to each individual’s
             needs and goals.
