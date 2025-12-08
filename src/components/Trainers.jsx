@@ -93,12 +93,13 @@ const Trainers = () => {
   return (
     <section
       className="bg-black text-white font-sans flex flex-col items-center   
-      left-0 top-0 h-full pt-54 px-8 sm:px-8  md:pl-4 md:px-8 lg:px-28 py-8"
+      left-0 top-0 h-full pt-54 px-8 sm:px-8 md:px-8 lg:px-16 py-8 sm:py-16"
       id="trainers"
     >
-      <h2 className="font-montserrat font-bold text-[2rem] sm:text-[2.65rem] mb-8 md:mb-12
-      ">
-        {/* text-2xl sm:text-3xl font-extrabold text-center mb-12 */}
+      <h2
+        className="font-montserrat font-bold text-[2rem] sm:text-[2.65rem] mb-8 md:mb-12
+      "
+      >
         Trainers staff
       </h2>
 
