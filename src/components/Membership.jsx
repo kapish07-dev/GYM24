@@ -70,7 +70,7 @@ const handleBuyClick = () => {
 const Membership = () => {
   return (
     <section
-      className="bg-black text-white font-sans px-6 sm:px-8 lg:px-40 py-16 sm:py-24"
+      className="bg-black text-white font-sans px-6 sm:px-8 lg:px-40 py-16 md:py-12 sm:py-24"
       id="membership"
     >
       <h2 className="font-montserrat leading-normal text-[2rem] sm:text-[2.50rem]

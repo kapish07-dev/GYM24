@@ -93,7 +93,7 @@ const Trainers = () => {
   return (
     <section
       className="bg-black text-white font-sans flex flex-col items-center   
-      left-0 top-0 h-full pt-54 px-8 sm:px-8 md:px-8 lg:px-16 py-8 sm:py-16"
+      left-0 top-0 h-full px-8 sm:px-8 md:px-8 lg:px-16 py-8 sm:py-16"
       id="trainers"
     >
       <h2
