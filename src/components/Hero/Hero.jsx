@@ -25,11 +25,11 @@ const Hero = () => {
       </div>
 
       {/* Visual Container for the Right Side - Holds the Hero Image */}
-      <div className="absolute right-0 top-0 h-full z-0 w-[52%] md:w-auto">
+      <div className="absolute right-0 top-0 h-full z-0 w-full md:w-[52%] flex justify-center items-center">
         <img
           src="/HeroNew.jpg"
           alt="Fitness trainer"
-          className="w-full h-full p-12 md:p-3 object-fill object-[80%] opacity-85"
+          className="w-full h-full  md:p-3 object-cover md:object-contain opacity-85"
         />
       </div>
     </div>
