@@ -143,6 +143,7 @@ const Header = () => {
         } bg-[#00000025] w-full h-screen left-0 z-10 flex flex-col absolute md:hidden font-bold text-[1.2rem]  font-weight: 600  gap-12 font-poppins text-white text-sm uppercase transition-all duration-200`}
         onClick={() => setIsOpen(!isOpen)}
       >
+        
         <div className="absolute px-10 right-0 top-19 py-7 flex flex-col gap-5 text-right h-fit w-full bg-black">
           <h3 className="">
             <a
