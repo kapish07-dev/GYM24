@@ -1,4 +1,3 @@
-// File: Membership.jsx
 import React from "react";
 import { FaRegCircleCheck } from "react-icons/fa6";
 
@@ -73,10 +72,12 @@ const Membership = () => {
       className="bg-black text-white font-sans px-6 sm:px-8 lg:px-40 py-16 md:py-12 sm:py-24"
       id="membership"
     >
-      <h2 className="font-montserrat leading-normal text-[2rem] sm:text-[2.50rem]
+      <h2
+        className="font-montserrat leading-normal text-[2rem] sm:text-[2.50rem]
 
-      font-bold text-center mb-12">
-      {/* text-4xl sm:text-2xl md:text-4xl font-bold text-center mb-12"> */}
+      font-bold text-center mb-12"
+      >
+        {/* text-4xl sm:text-2xl md:text-4xl font-bold text-center mb-12"> */}
         Gym membership
       </h2>
       <div className="flex flex-wrap justify-center   gap-8 sm:gap-10 lg:gap-14">

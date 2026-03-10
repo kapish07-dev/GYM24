@@ -237,7 +237,9 @@ const AboutUs = () => {
                 <div
                   key={index}
                   className={`w-4 sm:w-18 h-[2.5px] rounded-sm ${
-                    index === currentIndex ? "bg-[#bbff00]" : "bg-[rgba(44,44,44,0.7)]"
+                    index === currentIndex
+                      ? "bg-[#bbff00]"
+                      : "bg-[rgba(44,44,44,0.7)]"
                   }`}
                 />
               ))}

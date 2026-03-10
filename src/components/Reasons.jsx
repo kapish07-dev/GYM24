@@ -1,4 +1,3 @@
-// File: Reasons.jsx
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -41,8 +40,10 @@ const Reasons = () => {
       className="bg-black text-white font-sans px-8 md:px-8 sm:px-8 lg:px-40 py-16 sm:py-16 md:py-2"
       id="advantages"
     >
-      <h2 className=" font-bold mb-20 text-center md:text-left pt-12 md:pt-8
-      text-[2rem] sm:text-[2.50rem]">
+      <h2
+        className=" font-bold mb-20 text-center md:text-left pt-12 md:pt-8
+      text-[2rem] sm:text-[2.50rem]"
+      >
         Reasons to join
       </h2>
 

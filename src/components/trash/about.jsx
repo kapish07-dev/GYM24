@@ -209,7 +209,7 @@ const AboutUs = () => {
       {/* Fullscreen Popup */}
       {popupOpen && (
         <div
-          className="popup-overlay fixed inset-0 bg-[rgba(44,44,44,0.6)] backdrop-blur-sm flex justify-center items-center z-[1000] transition-opacity"
+          className="popup-overlay fixed inset-0 bg-[rgba(44,44,44,0.6)] backdrop-blur-sm flex justify-center items-center z-1000 transition-opacity"
           onClick={handleOverlayClick}
         >
           <div
@@ -221,7 +221,7 @@ const AboutUs = () => {
             onTouchEnd={handleTouchEnd}
           >
             <button
-              className="absolute top-3 right-5 text-2xl text-white cursor-pointer z-[1000] transition-transform hover:scale-105"
+              className="absolute top-3 right-5 text-2xl text-white cursor-pointer z-1000 transition-transform hover:scale-105"
               onClick={closePopup}
             >
               &times;
